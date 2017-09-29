@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/drongma/springmvcshoppingcart/controller/MainController.java=UTF-8
+encoding//src/main/java/com/drongma/springmvcshoppingcart/daoimp/OrderDAOImpl.java=UTF-8
+encoding//src/main/java/com/drongma/springmvcshoppingcart/daoimp/ProductDAOImpl.java=UTF-8
+encoding//src/main/java/com/drongma/springmvcshoppingcart/model/OrderDetailInfo.java=UTF-8
+encoding//src/main/java/com/drongma/springmvcshoppingcart/model/OrderInfo.java=UTF-8
+encoding//src/main/java/com/drongma/springmvcshoppingcart/model/ProductInfo.java=UTF-8

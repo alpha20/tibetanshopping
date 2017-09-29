@@ -24,7 +24,6 @@
 							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
 							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
 							<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="4"></li>
 						</ol>
 						<div class="carousel-inner">
 							
@@ -42,10 +41,6 @@
 							</div>
 							<div class="item">
 								<img class="slide-image" src="${images}/banner4.jpg"
-									alt="">
-							</div>
-							<div class="item">
-								<img class="slide-image" src="${images}/boipa.jpg"
 									alt="">
 							</div>
 						</div>

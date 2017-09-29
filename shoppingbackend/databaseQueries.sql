@@ -111,7 +111,3 @@ CREATE TABLE cart_line (
 	CONSTRAINT pk_cartline_id PRIMARY KEY (id)
 );
 
-
-
-
-
