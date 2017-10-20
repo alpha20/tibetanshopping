@@ -29,7 +29,7 @@
 	
 	
 	<!-- Loading static resources -->
-	<mvc:annotation-driven />
+	  <mvc:annotation-driven />
 	
 	<mvc:resources location="/assets/" mapping="/resources/**" />
 	
@@ -58,8 +58,12 @@
 	</bean>	
 	
    	<bean id="viewFactoryCreator" class="org.springframework.webflow.mvc.builder.MvcViewFactoryCreator">
-         <property name="viewResolvers" ref="viewResolver" />
- 	</bean>	
+         <property name="viewResolvers" >
+         <list>
+         <ref bean="viewResolver" />
+         </list>
+         </property>
+   	</bean>	
  	
 	<bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"/> 	
 

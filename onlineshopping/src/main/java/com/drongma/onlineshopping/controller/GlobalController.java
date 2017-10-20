@@ -15,7 +15,6 @@ import com.drongma.shoppingbackend.dto.User;
 @ControllerAdvice
 public class GlobalController {
 	
-	
 	@Autowired
 	private UserDAO userDAO;
 	

@@ -24,11 +24,11 @@
 	<div class="row">
 	
 		<!-- Display the product image -->
-		<div class="col-xs-12 col-sm-4">
+		<div class="col-xs-12 col-sm-6">
 		
 			<div class="thumbnail">
 							
-				<img src="${images}/${product.code}.jpg" class="img img-responsive"/>
+				<img src="${images}/${product.code}.jpg" class="img img-responsive  imagesize"/>
 						
 			</div>
 		
@@ -36,7 +36,7 @@
 	
 		
 		<!-- Display the product description -->	
-		<div class="col-xs-12 col-sm-8">
+		<div class="col-xs-12 col-sm-6">
 		
 			<h3>${product.name}</h3>
 			<hr/>

@@ -239,3 +239,11 @@ input:checked + .slider:before {
 		background:url(../images/pre-loader.gif) 50% no-repeat #fff
 }
 
+
+/* size of singleProduct image */
+.imagesize{
+	height :130px;
+	width :130px;
+}
+
+

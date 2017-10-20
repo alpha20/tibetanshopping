@@ -17,9 +17,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
-<meta name="author" content="">
+<meta name="author" content="Ngawang Yeshi Drongma">
 
-<title>Online Shopping - Membership</title>
+<title>Tibetan Market - Membership</title>
 
 <script>
 
@@ -58,7 +58,7 @@
 	        <div class="container">
 	            <!-- Brand and toggle get grouped for better mobile display -->
 	            <div class="navbar-header">
-	                <a class="navbar-brand" href="${flowExecutionUrl}&_eventId=home">Online Shopping</a>
+	                <a class="navbar-brand" href="${flowExecutionUrl}&_eventId=home">Tibetan Market</a>
 	            </div>
 			</div>
 		</nav>

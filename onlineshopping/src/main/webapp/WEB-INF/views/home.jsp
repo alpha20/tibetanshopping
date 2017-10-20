@@ -9,6 +9,8 @@
 
 		<div class="col-md-3">
 			<%@include file="./shared/sidebar.jsp"%>
+			
+			
 		</div>
 
 		<div class="col-md-9">
@@ -24,6 +26,7 @@
 							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
 							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
 							<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+							
 						</ol>
 						<div class="carousel-inner">
 							
@@ -43,6 +46,7 @@
 								<img class="slide-image" src="${images}/banner4.jpg"
 									alt="">
 							</div>
+		
 						</div>
 						<a class="left carousel-control" href="#carousel-example-generic"
 							data-slide="prev"> <span
@@ -112,6 +116,7 @@
                         <h4>Checkout more products!</h4>
                         <hr/>
                         <a class="btn btn-primary" href="${contextRoot}/show/all/products">More Products</a>
+                       <%@include file="./shared/hello.jsp"%>
                     </div>
 
                 </div>

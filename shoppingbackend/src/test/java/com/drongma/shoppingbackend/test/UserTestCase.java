@@ -20,7 +20,7 @@ public class UserTestCase {
 	@BeforeClass
 	public static void init() {
 		context = new AnnotationConfigApplicationContext();
-		context.scan("net.kzn.shoppingbackend");
+		context.scan("com.drongma.shoppingbackend");
 		context.refresh();
 		
 		userDAO = (UserDAO) context.getBean("userDAO");
@@ -31,8 +31,8 @@ public class UserTestCase {
 	public void testAddUser() {
 		
 		user = new User() ;
-		user.setFirstName("Hrithik");
-		user.setLastName("Roshan");
+		user.setFirstName("Ngawang");
+		user.setLastName("Yeshi");
 		user.setEmail("hr@gmail.com");
 		user.setContactNumber("1234512345");
 		user.setRole("CUSTOMER");
@@ -41,12 +41,12 @@ public class UserTestCase {
 		
 		
 		address = new Address();
-		address.setAddressLineOne("101/B Jadoo Society, Krissh Nagar");
-		address.setAddressLineTwo("Near Kaabil Store");
-		address.setCity("Mumbai");
-		address.setState("Maharashtra");
+		address.setAddressLineOne("Tibetan youth hostel, Koramangala");
+		address.setAddressLineTwo("Near Mandri classic");
+		address.setCity("Bangalore");
+		address.setState("Karnataka");
 		address.setCountry("India");
-		address.setPostalCode("400001");
+		address.setPostalCode("560047");
 		address.setBilling(true);
 		
 		cart = new Cart();
@@ -67,18 +67,18 @@ public class UserTestCase {
 				
 		// add the shipping address
 		address = new Address();
-		address.setAddressLineOne("201/B Jadoo Society, Kishan Kanhaiya Nagar");
-		address.setAddressLineTwo("Near Kudrat Store");
-		address.setCity("Mumbai");
-		address.setState("Maharashtra");
+		address.setAddressLineOne("Tibetan youth hostel, Koramangala");
+		address.setAddressLineTwo("Near Mandri classic");
+		address.setCity("Bangalore");
+		address.setState("Karnataka");
 		address.setCountry("India");
-		address.setPostalCode("400001");
-		address.setUser(user);
+		address.setPostalCode("560047");
+		address.setBilling(true);
 		assertEquals("Failed to add the shipping address!", true, userDAO.addAddress(address));
 		
 	}
 	
-	*/
+	
 
 	// working for uni-directional
 /*
@@ -87,12 +87,13 @@ public class UserTestCase {
 		user = userDAO.get(1);
 		
 		address = new Address();
-		address.setAddressLineOne("301/B Jadoo Society, King Uncle Nagar");
-		address.setAddressLineTwo("Near Store");
-		address.setCity("Mumbai");
-		address.setState("Maharashtra");
+		address.setAddressLineOne("Tibetan youth hostel, Koramangala");
+		address.setAddressLineTwo("Near Mandri classic");
+		address.setCity("Bangalore");
+		address.setState("Karnataka");
 		address.setCountry("India");
-		address.setPostalCode("400001");
+		address.setPostalCode("560047");
+		address.setBilling(true);
 				
 		address.setUser(user);
 		// add the address

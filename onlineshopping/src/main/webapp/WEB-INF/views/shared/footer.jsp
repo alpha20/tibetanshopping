@@ -6,7 +6,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Online Shopping 2017 - Designed and Developed By Ngawang Yeshi Drongma</p>
+                    <p>Copyright &copy; Tibetan Market 2017 - Designed and Developed By Ngawang Yeshi Drongma</p>
                 </div>
             </div>
         </footer>
